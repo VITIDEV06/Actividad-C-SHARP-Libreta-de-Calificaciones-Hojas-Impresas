@@ -1,4 +1,4 @@
-# Laboratorio — Clases en C#
+# Laboratorio — Libreta de Calificaciones
 
 <div align="center">
 
