@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\Documentos\\1. DOCUMENTOS PERSONALES\\UNIVERSIDAD\\SEMESTRE VI\\HPA 3\\Laboratorios\\Actividad #1\\Codigo#2 - Victor Montes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59F10E18-4040-F54B-5637-948984BDC960}|Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes.csproj|c:\\users\\victo\\onedrive\\documentos\\1. documentos personales\\universidad\\semestre vi\\hpa 3\\laboratorios\\actividad #1\\codigo#2 - victor montes\\codigo#2 - victor montes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F10E18-4040-F54B-5637-948984BDC960}|Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes.csproj|solutionrelative:codigo#2 - victor montes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F10E18-4040-F54B-5637-948984BDC960}|Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes.csproj|c:\\users\\victo\\onedrive\\documentos\\1. documentos personales\\universidad\\semestre vi\\hpa 3\\laboratorios\\actividad #1\\codigo#2 - victor montes\\codigo#2 - victor montes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F10E18-4040-F54B-5637-948984BDC960}|Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes.csproj|solutionrelative:codigo#2 - victor montes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\1. DOCUMENTOS PERSONALES\\UNIVERSIDAD\\SEMESTRE VI\\HPA 3\\Laboratorios\\Actividad #1\\Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes\\Program.cs",
+              "RelativeDocumentMoniker": "Codigo#2 - Victor Montes\\Program.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\1. DOCUMENTOS PERSONALES\\UNIVERSIDAD\\SEMESTRE VI\\HPA 3\\Laboratorios\\Actividad #1\\Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes\\Program.cs",
+              "RelativeToolTip": "Codigo#2 - Victor Montes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T15:39:27.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\1. DOCUMENTOS PERSONALES\\UNIVERSIDAD\\SEMESTRE VI\\HPA 3\\Laboratorios\\Actividad #1\\Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes\\Class1.cs",
+              "RelativeDocumentMoniker": "Codigo#2 - Victor Montes\\Class1.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\1. DOCUMENTOS PERSONALES\\UNIVERSIDAD\\SEMESTRE VI\\HPA 3\\Laboratorios\\Actividad #1\\Codigo#2 - Victor Montes\\Codigo#2 - Victor Montes\\Class1.cs",
+              "RelativeToolTip": "Codigo#2 - Victor Montes\\Class1.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T15:40:58.684Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
