@@ -44,8 +44,10 @@
 | **Paradigma**   | Programación Orientada a Objetos |
 | **Autor**       | Victor Montes                    |
 | **Institución** | UTP — FISC                       |
+| **Fecha**       | 07 de septiembre de 2026         |
 
 </div>
+
 
 ---
 
@@ -766,13 +768,22 @@ Ambos proyectos permiten practicar conceptos fundamentales de C#, como:
 
 <div align="center">
 
-### 🧑‍💻 Victor Montes
+## Victor Montes
 
-**Universidad Tecnológica de Panamá — UTP**
-**Facultad de Ingeniería de Sistemas Computacionales — FISC**
+**Universidad Tecnológica de Panamá**
+`UTP` · **Facultad de Ingeniería de Sistemas Computacionales**
+`FISC`
 
 <br>
 
-⭐ **Actividad académica desarrollada en C# y .NET**
+<img src="https://img.shields.io/badge/Autor-Victor%20Montes-512BD4?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/C%23-.NET%2010-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/Proyecto-Académico-181717?style=for-the-badge&logo=github&logoColor=white">
+
+<br><br>
+
+> **Actividad académica desarrollada en C# y .NET 10**
+> Programación Orientada a Objetos · Aplicación de consola
 
 </div>
+
