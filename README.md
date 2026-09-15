@@ -36,14 +36,14 @@
 
 |                    |                                  |
 | ------------------ | -------------------------------- |
-| 📚 **Actividad**   | Libreta de Calificaciones        |
-| 💻 **Lenguaje**    | C#                               |
-| ⚙️ **Plataforma**  | .NET 10                          |
-| 🖥️ **Aplicación** | Consola                          |
-| 🔄 **Estructura**  | `while`                          |
-| 🧩 **Paradigma**   | Programación Orientada a Objetos |
-| 👨‍💻 **Autor**    | Victor Montes                    |
-| 🏫 **Institución** | UTP — FISC                       |
+| **Actividad**   | Libreta de Calificaciones        |
+| **Lenguaje**    | C#                               |
+| **Plataforma**  | .NET 10                          |
+| **Aplicación** | Consola                          |
+| **Estructura**  | `while`                          |
+| **Paradigma**   | Programación Orientada a Objetos |
+| **Autor**    | Victor Montes                    |
+| **Institución** | UTP — FISC                       |
 
 </div>
 
