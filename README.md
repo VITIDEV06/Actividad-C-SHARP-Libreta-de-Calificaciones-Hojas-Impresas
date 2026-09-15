@@ -110,29 +110,29 @@ El primer proyecto desarrolla una aplicación de consola que solicita exactament
 
 El programa utiliza un contador para controlar el ciclo `while`.
 
-```text
-Inicio
-   │
-   ▼
-contadorCalif = 1
-   │
-   ▼
-¿contadorCalif <= 10?
-   │
-   ├── Sí ──► Leer calificación
-   │             │
-   │             ▼
-   │          Acumular
-   │             │
-   │             ▼
-   │        Incrementar contador
-   │             │
-   │             └──────────► Volver al while
-   │
-   └── No ──► Calcular promedio
-                    │
-                    ▼
-                  Fin
+```mermaid
+flowchart TD
+    A([Inicio]) --> B[Inicializar variables<br/>contador = 1<br/>suma = 0]
+    B --> C{¿contador ≤ 10?}
+
+    C -->|Sí| D[Leer calificación]
+    D --> E[Acumular calificación]
+    E --> F[Incrementar contador]
+    F --> C
+
+    C -->|No| G[Calcular promedio]
+    G --> H[Mostrar promedio]
+    H --> I([Fin])
+
+    classDef inicio fill:#1e293b,color:#fff,stroke:#6366f1,stroke-width:2px
+    classDef proceso fill:#eef2ff,color:#1e1b4b,stroke:#6366f1,stroke-width:1.5px
+    classDef decision fill:#fef3c7,color:#78350f,stroke:#f59e0b,stroke-width:2px
+    classDef final fill:#ecfdf5,color:#065f46,stroke:#10b981,stroke-width:2px
+
+    class A inicio
+    class B,D,E,F,G,H proceso
+    class C decision
+    class I final
 ```
 
 ---
@@ -157,13 +157,17 @@ Codigo#1 - Victor Montes/
 
 La clase representa el libro de calificaciones y contiene:
 
-| Elemento                    | Función                          |
-| --------------------------- | -------------------------------- |
-| `nombreCurso`               | Almacena el nombre del curso     |
-| `NombreCurso`               | Propiedad `get / set`            |
-| Constructor                 | Inicializa el curso              |
-| `MostrarMensaje()`          | Muestra el mensaje de bienvenida |
-| `DeterminarPromedioClase()` | Procesa las calificaciones       |
+<div align="center">
+    
+| Elemento | Función |
+|:--------:|:-------:|
+| `nombreCurso` | Almacena el nombre del curso |
+| `NombreCurso` | Propiedad `get / set` |
+| Constructor | Inicializa el curso |
+| `MostrarMensaje()` | Muestra el mensaje de bienvenida |
+| `DeterminarPromedioClase()` | Procesa las calificaciones |
+
+</div>
 
 ```mermaid
 classDiagram
@@ -770,20 +774,24 @@ Ambos proyectos permiten practicar conceptos fundamentales de C#, como:
 
 ## Victor Montes
 
-**Universidad Tecnológica de Panamá**
-`UTP` · **Facultad de Ingeniería de Sistemas Computacionales**
-`FISC`
+**Universidad Tecnológica de Panamá**  `UTP` · **Facultad de Ingeniería de Sistemas Computacionales**  `FISC`
 
 <br>
 
 <img src="https://img.shields.io/badge/Autor-Victor%20Montes-512BD4?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/C%23-.NET%2010-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
-<img src="https://img.shields.io/badge/Proyecto-Académico-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/.NET-10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
+<img src="https://img.shields.io/badge/POO-Programación%20Orientada%20a%20Objetos-181717?style=for-the-badge">
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+<br><br>
+<img src="https://img.shields.io/badge/Console%20Application-C%23-512BD4?style=flat-square&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/.NET%2010-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+<img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white">
+<img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white">
 
 <br><br>
 
-> **Actividad académica desarrollada en C# y .NET 10**
+> **Actividad académica desarrollada en C# y .NET 10**  
 > Programación Orientada a Objetos · Aplicación de consola
 
 </div>
-
