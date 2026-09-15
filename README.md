@@ -550,19 +550,37 @@ El programa no sabe cuántas calificaciones se introducirán. El usuario decide 
 
 # 8. Conceptos Aplicados
 
+| Concepto                                                                                             | Aplicación en el proyecto                                                               |
+| :--------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/▦-512BD4?style=flat-square" height="20"> **Clase**            | Define la estructura y comportamiento de `LibroCalificaciones`.                         |
+| <img src="https://img.shields.io/badge/◆-512BD4?style=flat-square" height="20"> **Objeto**           | Instancia de la clase `LibroCalificaciones` utilizada por el programa.                  |
+| <img src="https://img.shields.io/badge/⚙-512BD4?style=flat-square" height="20"> **Constructor**      | Inicializa el objeto con el nombre del curso.                                           |
+| <img src="https://img.shields.io/badge/🔒-512BD4?style=flat-square" height="20"> **Encapsulamiento** | Organización de datos y métodos dentro de la clase.                                     |
+| <img src="https://img.shields.io/badge/f()-512BD4?style=flat-square" height="20"> **Métodos**        | `MostrarMensaje()` y `DeterminaPromedioClase()` encapsulan funcionalidades específicas. |
+| <img src="https://img.shields.io/badge/↻-512BD4?style=flat-square" height="20"> **`while`**          | Controla la repetición durante el ingreso de calificaciones.                            |
+| <img src="https://img.shields.io/badge/⌨-512BD4?style=flat-square" height="20"> **Entrada de datos** | `Console.ReadLine()` permite recibir información del usuario.                           |
+| <img src="https://img.shields.io/badge/▣-512BD4?style=flat-square" height="20"> **Salida de datos**  | `Console.WriteLine()` muestra resultados en la consola.                                 |
+| <img src="https://img.shields.io/badge/Σ-512BD4?style=flat-square" height="20"> **Acumulador**       | `total` almacena la suma de las calificaciones.                                         |
+| <img src="https://img.shields.io/badge/%23-512BD4?style=flat-square" height="20"> **Contador**       | `contadorCalif` registra la cantidad de calificaciones introducidas.                    |
+| <img src="https://img.shields.io/badge/x̄-512BD4?style=flat-square" height="20"> **Promedio**        | Se obtiene dividiendo el total entre la cantidad de calificaciones.                     |
+| <img src="https://img.shields.io/badge/⇄-512BD4?style=flat-square" height="20"> **Conversión**       | `Convert.ToInt32()` transforma la entrada de texto en un entero.                        |
+| <img src="https://img.shields.io/badge/◇-512BD4?style=flat-square" height="20"> **Condicional**      | `if` determina si existen calificaciones antes de calcular el promedio.                 |
+| <img src="https://img.shields.io/badge/⚑-512BD4?style=flat-square" height="20"> **Valor centinela**  | `-1` permite finalizar el ingreso de calificaciones en el Código #2.                    |
+
+---
+
 <div align="center">
 
-| 🧩  | Concepto         | 🧩 | Concepto        |
-| --- | ---------------- | -- | --------------- |
-| 📦  | Clase            | 🧍 | Objeto          |
-| 🏗️ | Constructor      | 🔐 | Encapsulamiento |
-| ⚙️  | Métodos          | 🔄 | `while`         |
-| 📥  | Entrada          | 📤 | Salida          |
-| ➕   | Acumulador       | 🔢 | Contador        |
-| 🧮  | Promedio         | 🔠 | Conversión      |
-| 🚦  | Condicional `if` | 🛑 | Valor centinela |
+### Tecnologías y fundamentos
+
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 
 </div>
+
+
+
 
 ---
 
