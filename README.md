@@ -1,314 +1,321 @@
-# Laboratorio — Libreta de Calificaciones
-
 <div align="center">
 
-<img src="https://img.shields.io/badge/C%23-Programming-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
-<img src="https://img.shields.io/badge/.NET-Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
-<img src="https://img.shields.io/badge/OOP-Object--Oriented-6A5ACD?style=for-the-badge" alt="Object Oriented Programming">
-<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+# ACTIVIDAD — LIBRETA DE CALIFICACIONES EN C#
+
+### C# · .NET · Clases · Objetos · Ciclo `while` · Consola
 
 <br>
 
-**Programación Orientada a Objetos · C# · Control de Repetición**
+<img src="assets/banner-libretacalificaciones-csharp.jpg" alt="Libreta de Calificaciones en C#">
+
+<br><br>
+
+**Victor Montes**
+**Universidad Tecnológica de Panamá — UTP**
+**Facultad de Ingeniería de Sistemas Computacionales — FISC**
+
+<br>
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge\&logo=csharp\&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge\&logo=visualstudio\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+
+<br>
+
+**Fecha:** 15/09/2026
 
 </div>
 
 ---
 
-## Descripción
-
-Este repositorio contiene una actividad práctica desarrollada en **C#** cuyo objetivo principal es reforzar los fundamentos de la **Programación Orientada a Objetos (POO)** mediante la creación y utilización de una clase denominada `LibroCalificaciones`.
-
-La actividad implementa dos versiones de un sistema sencillo para calcular el promedio de calificaciones de una clase. Aunque ambas soluciones utilizan una estructura similar, cada una emplea un mecanismo diferente para controlar la repetición:
-
-* **Programa 1:** repetición controlada por un **contador**.
-* **Programa 2:** repetición controlada mediante un **valor centinela**.
-
-De esta manera, la actividad permite comparar dos estrategias fundamentales para controlar ciclos dentro de un programa.
-
----
-
-## Objetivos
-
-* Comprender la estructura básica de una clase en C#.
-* Crear y utilizar objetos mediante constructores.
-* Aplicar conceptos de **encapsulamiento**.
-* Trabajar con propiedades `get` y `set`.
-* Implementar métodos dentro de una clase.
-* Utilizar entrada y salida de datos mediante consola.
-* Aplicar ciclos `while`.
-* Utilizar contadores y acumuladores.
-* Implementar ciclos controlados por contador.
-* Implementar ciclos controlados por centinela.
-* Calcular promedios a partir de datos introducidos por el usuario.
-* Comparar diferentes estrategias de repetición.
-
----
-
-## Tecnologías utilizadas
+## 1. Información de la Actividad
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#">
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET">
-<img src="https://img.shields.io/badge/Console-Application-333333?style=flat-square&logo=windows-terminal&logoColor=white" alt="Console Application">
-<img src="https://img.shields.io/badge/OOP-6A5ACD?style=flat-square" alt="OOP">
-<img src="https://img.shields.io/badge/Git-FFD54F?style=flat-square&logo=git&logoColor=black" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+|                    |                                  |
+| ------------------ | -------------------------------- |
+| 📚 **Actividad**   | Libreta de Calificaciones        |
+| 💻 **Lenguaje**    | C#                               |
+| ⚙️ **Plataforma**  | .NET 10                          |
+| 🖥️ **Aplicación** | Consola                          |
+| 🔄 **Estructura**  | `while`                          |
+| 🧩 **Paradigma**   | Programación Orientada a Objetos |
+| 👨‍💻 **Autor**    | Victor Montes                    |
+| 🏫 **Institución** | UTP — FISC                       |
 
 </div>
 
 ---
 
-## Estructura del proyecto
+## 2. Contenido del Repositorio
 
-La actividad está organizada en dos programas independientes que utilizan una estructura similar:
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="60">
+
+**C#**
+
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="60">
+
+**.NET**
+
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/class.png" width="60">
+
+**CLASES**
+
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/object.png" width="60">
+
+**OBJETOS**
+
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/repeat.png" width="60">
+
+**WHILE**
+
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/calculator.png" width="60">
+
+**PROMEDIO**
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+La actividad desarrolla una aplicación de consola para registrar **10 calificaciones**, calcular su total y obtener el promedio de la clase.
+
+```mermaid
+flowchart LR
+
+    A["📥 10 CALIFICACIONES"] --> B["➕ ACUMULAR"]
+    B --> C["🧮 CALCULAR"]
+    C --> D["📊 RESULTADO"]
+
+    classDef input fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
+    classDef process fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
+    classDef result fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
+
+    class A input;
+    class B,C process;
+    class D result;
+```
+
+---
+
+## 3. Tecnologías Utilizadas
+
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center" width="150">
+
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" width="105">
+
+<br>
+
+**C#**
+
+</td>
+
+<td align="center" width="150">
+
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" width="105">
+
+<br>
+
+**.NET**
+
+</td>
+
+<td align="center" width="150">
+
+<img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" width="105">
+
+<br>
+
+**Visual Studio**
+
+</td>
+
+<td align="center" width="150">
+
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" width="90">
+
+<br>
+
+**Git**
+
+</td>
+
+<td align="center" width="150">
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" width="90">
+
+<br>
+
+**GitHub**
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+---
+
+## 4. Estructura del Proyecto
 
 ```text
-.
-├── Programa 1/
-│   ├── Program.cs
-│   └── Class.cs
+Actividad-C-SHARP-Libreta-de-Calificaciones-Hojas-Impresas/
 │
-├── Programa 2/
-│   ├── Program.cs
-│   └── Class.cs
-│
-└── README.md
+└── Codigo#1 - Victor Montes/
+    │
+    ├── Codigo#1 - Victor Montes.slnx
+    │
+    └── Codigo#1 - Victor Montes/
+        │
+        ├── Program.cs
+        ├── Class1.cs
+        └── Codigo#1 - Victor Montes.csproj
 ```
 
-### `Program.cs`
+```mermaid
+flowchart TD
 
-Contiene el punto de entrada de la aplicación mediante el método:
+    A["📁 Proyecto"] --> B["📄 Program.cs"]
+    A --> C["📄 Class1.cs"]
+    A --> D["⚙️ .csproj"]
+    A --> E["🧩 .slnx"]
 
-```csharp
-Main()
+    B --> F["Main()"]
+    C --> G["LibroCalificaciones"]
+
+    G --> H["Constructor"]
+    G --> I["NombreCurso"]
+    G --> J["MostrarMensaje()"]
+    G --> K["DeterminarPromedioClase()"]
+
+    classDef project fill:#111827,stroke:#38BDF8,color:#FFFFFF,stroke-width:3px;
+    classDef file fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:2px;
+    classDef code fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:2px;
+
+    class A project;
+    class B,C,D,E file;
+    class F,G,H,I,J,K code;
 ```
-
-Su responsabilidad principal es crear una instancia de `LibroCalificaciones` y ejecutar sus métodos.
-
-### `Class.cs`
-
-Contiene la implementación de la clase:
-
-```csharp
-LibroCalificaciones
-```
-
-Esta clase concentra la información y el comportamiento relacionado con el libro de calificaciones.
 
 ---
 
-# Programa 1 — Repetición controlada por contador
+## 5. Clase `LibroCalificaciones`
 
-## Descripción
+```mermaid
+classDiagram
 
-La primera solución utiliza un ciclo `while` controlado mediante un contador.
+    class LibroCalificaciones {
+        -string nombreCurso
+        +string NombreCurso
+        +LibroCalificaciones(string nombre)
+        +void MostrarMensaje()
+        +void DeterminarPromedioClase()
+    }
 
-El programa solicita exactamente **10 calificaciones** al usuario. Cada valor introducido se acumula y, una vez completadas las diez iteraciones, se calcula el promedio.
+    class PruebaLibroCalificaciones {
+        +Main(string[] args)
+    }
 
-### Flujo de ejecución
-
-```text
-        ┌──────────────────────┐
-        │ Iniciar programa     │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ Crear objeto         │
-        │ LibroCalificaciones  │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ Mostrar bienvenida   │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ contadorCalif = 1   │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ ¿contador <= 10?     │
-        └───────┬────────┬─────┘
-                │ Sí     │ No
-                ▼        ▼
-        ┌─────────────┐  ┌─────────────────┐
-        │ Leer nota   │  │ Calcular        │
-        │ y acumular  │  │ promedio        │
-        └──────┬──────┘  └────────┬────────┘
-               │                  │
-               ▼                  ▼
-        ┌─────────────┐    ┌──────────────┐
-        │ Incrementar │    │ Mostrar      │
-        │ contador    │    │ resultados   │
-        └──────┬──────┘    └──────┬───────┘
-               │                  │
-               └───────┐          │
-                       ▼          ▼
-                    Repetir     Fin
+    PruebaLibroCalificaciones --> LibroCalificaciones
 ```
 
-## Características
+<div align="center">
 
-| Característica        | Implementación       |
-| --------------------- | -------------------- |
-| Control de repetición | Contador             |
-| Número de entradas    | 10                   |
-| Variable de control   | `contadorCalif`      |
-| Acumulador            | `total`              |
-| Tipo del promedio     | `int`                |
-| Ciclo utilizado       | `while`              |
-| Entrada               | `Console.ReadLine()` |
+| 🧩 Elemento                 | ⚙️ Función                   |
+| --------------------------- | ---------------------------- |
+| `nombreCurso`               | Almacena el nombre del curso |
+| `NombreCurso`               | Propiedad `get / set`        |
+| Constructor                 | Inicializa el curso          |
+| `MostrarMensaje()`          | Muestra bienvenida           |
+| `DeterminarPromedioClase()` | Procesa las calificaciones   |
 
-### Concepto principal
-
-El ciclo continúa mientras:
-
-```csharp
-while (contadorCalif <= 10)
-```
-
-Esto garantiza que el usuario introduzca exactamente diez calificaciones.
+</div>
 
 ---
 
-# Programa 2 — Repetición controlada por centinela
+## 6. Creación del Objeto
 
-## Descripción
+```mermaid
+flowchart LR
 
-La segunda solución modifica la estrategia utilizada para controlar el ciclo.
+    A["Program.cs"] --> B["new"]
+    B --> C["LibroCalificaciones"]
+    C --> D["Constructor"]
+    D --> E["NombreCurso"]
 
-En lugar de establecer una cantidad fija de calificaciones, el usuario puede introducir **tantas calificaciones como desee**.
+    classDef main fill:#111827,stroke:#38BDF8,color:#FFFFFF,stroke-width:3px;
+    classDef object fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
+    classDef constructor fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
+    classDef property fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
 
-Para finalizar la introducción de datos se utiliza el valor:
-
-```text
--1
+    class A main;
+    class B,C object;
+    class D constructor;
+    class E property;
 ```
-
-Este valor recibe el nombre de **centinela**, ya que indica al programa que debe finalizar el ciclo.
-
-### Flujo de ejecución
-
-```text
-        ┌──────────────────────┐
-        │ Iniciar programa     │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ Crear objeto         │
-        │ LibroCalificaciones  │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ Solicitar            │
-        │ calificación         │
-        └──────────┬───────────┘
-                   │
-                   ▼
-        ┌──────────────────────┐
-        │ ¿Calificación = -1?  │
-        └───────┬────────┬─────┘
-                │ No     │ Sí
-                ▼        ▼
-        ┌─────────────┐  ┌──────────────────┐
-        │ Acumular    │  │ ¿Hay notas?      │
-        │ calificación│  └──────┬─────┬─────┘
-        └──────┬──────┘         │ Sí  │ No
-               │                ▼     ▼
-               ▼          ┌────────┐ ┌──────────┐
-        ┌─────────────┐   │Calcular│ │ Mostrar  │
-        │ Incrementar │   │promedio│ │ mensaje  │
-        │ contador    │   └────┬───┘ │ de error │
-        └──────┬──────┘        │      └────┬─────┘
-               │               ▼           │
-               └───────►  Mostrar          │
-                          resultados ◄──────┘
-```
-
-## Características
-
-| Característica        | Implementación                             |
-| --------------------- | ------------------------------------------ |
-| Control de repetición | Centinela                                  |
-| Número de entradas    | Variable                                   |
-| Valor centinela       | `-1`                                       |
-| Variable de control   | `calificacion`                             |
-| Acumulador            | `total`                                    |
-| Tipo del promedio     | `double`                                   |
-| Ciclo utilizado       | `while`                                    |
-| Validación            | Comprobación de cantidad de calificaciones |
-
-### Concepto principal
-
-El ciclo continúa mientras el usuario no introduzca el valor centinela:
 
 ```csharp
-while (calificacion != -1)
+LibroCalificaciones miLibroCalificaciones =
+    new LibroCalificaciones(
+        "CS101 Introducción a la programación en C#"
+    );
 ```
-
-Esto permite determinar dinámicamente cuándo debe finalizar la entrada de datos.
 
 ---
 
-# Comparación entre ambos programas
+## 7. Propiedad `NombreCurso`
 
-Una de las partes fundamentales de la actividad es observar cómo un mismo problema puede resolverse utilizando diferentes mecanismos de control de repetición.
+```mermaid
+flowchart LR
 
-| Aspecto          | Programa 1            | Programa 2            |
-| ---------------- | --------------------- | --------------------- |
-| Estrategia       | Contador              | Centinela             |
-| Entradas         | Exactamente 10        | Ilimitadas hasta `-1` |
-| Control          | `contadorCalif <= 10` | `calificacion != -1`  |
-| Promedio         | Entero                | Decimal               |
-| Tipo             | `int`                 | `double`              |
-| Precisión        | Sin decimales         | 2 decimales           |
-| Manejo sin datos | No aplica             | Sí                    |
-| Flexibilidad     | Baja                  | Mayor                 |
+    A["NombreCurso"] --> B["GET"]
+    A --> C["SET"]
 
-### Diferencia conceptual
+    B --> D["Obtener valor"]
+    C --> E["Modificar valor"]
 
-**Control por contador**
+    D --> F["nombreCurso"]
+    E --> F
 
-```text
-"Repite una cantidad determinada de veces."
+    classDef property fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
+    classDef access fill:#713F12,stroke:#FACC15,color:#FFFFFF,stroke-width:3px;
+    classDef value fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
+
+    class A property;
+    class B,C access;
+    class D,E,F value;
 ```
-
-**Control por centinela**
-
-```text
-"Repite hasta que ocurra una condición específica."
-```
-
-Esta diferencia es especialmente importante al diseñar algoritmos, ya que la estrategia adecuada depende de si conocemos previamente la cantidad de datos que serán procesados.
-
----
-
-# Conceptos de Programación Orientada a Objetos
-
-Ambos programas utilizan una misma clase:
-
-```csharp
-LibroCalificaciones
-```
-
-La clase representa un libro de calificaciones y encapsula tanto sus datos como las operaciones que pueden realizarse sobre ellos.
-
-## Encapsulamiento
-
-El nombre del curso se mantiene como un campo privado:
-
-```csharp
-private string nombreCurso;
-```
-
-El acceso se realiza mediante la propiedad:
 
 ```csharp
 public string NombreCurso
@@ -325,295 +332,279 @@ public string NombreCurso
 }
 ```
 
-Esto permite controlar cómo se accede al dato desde fuera de la clase.
-
 ---
 
-## Constructor
+## 8. Registro de Calificaciones
 
-La clase dispone de un constructor:
+```mermaid
+flowchart TD
+
+    A["🔢 contadorCalif = 1"] --> B{"contadorCalif <= 10"}
+    B -- "Sí" --> C["⌨️ Leer calificación"]
+    C --> D["🔄 Convertir a entero"]
+    D --> E["➕ total += calificación"]
+    E --> F["🔢 contadorCalif++"]
+    F --> B
+    B -- "No" --> G["✅ Finalizar"]
+
+    classDef start fill:#111827,stroke:#38BDF8,color:#FFFFFF,stroke-width:3px;
+    classDef condition fill:#713F12,stroke:#FACC15,color:#FFFFFF,stroke-width:3px;
+    classDef process fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:2px;
+    classDef finish fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
+
+    class A start;
+    class B condition;
+    class C,D,E,F process;
+    class G finish;
+```
 
 ```csharp
-public LibroCalificaciones(string nombre)
+while (contadorCalif <= 10)
 {
-    NombreCurso = nombre;
+    Console.Write("Escriba calificación: ");
+
+    calificacion =
+        Convert.ToInt32(Console.ReadLine());
+
+    total = total + calificacion;
+
+    contadorCalif = contadorCalif + 1;
 }
 ```
 
-Su función es inicializar el objeto cuando este es creado.
-
-Ejemplo:
-
-```csharp
-LibroCalificaciones miLibroCalificaciones =
-    new LibroCalificaciones(
-        "CS101 Introducción a la programación en C#"
-    );
-```
-
 ---
 
-## Métodos
+## 9. Cálculo del Promedio
 
-La clase proporciona métodos para realizar diferentes operaciones.
+<div align="center">
 
-### Mostrar mensaje
+<table>
+<tr>
 
-```csharp
-MostrarMensaje()
-```
+<td align="center">
 
-Muestra un mensaje de bienvenida junto con el nombre del curso.
+### 📥 ENTRADA
 
-### Determinar promedio
+**10 calificaciones**
 
-Programa 1:
+</td>
 
-```csharp
-DeterminarPromedioClase()
-```
+<td align="center">
 
-Programa 2:
+### ➕
 
-```csharp
-DeterminaPromedioClase()
-```
+**Acumulación**
 
-Ambos métodos calculan el promedio, pero utilizan diferentes estrategias de repetición.
+</td>
 
----
+<td align="center">
 
-# Entrada y procesamiento de datos
+### 🧮
 
-Los programas utilizan la consola para recibir información del usuario:
+**Total ÷ 10**
 
-```csharp
-Console.ReadLine();
-```
+</td>
 
-Posteriormente, el texto recibido se convierte a entero mediante:
+<td align="center">
 
-```csharp
-Convert.ToInt32(Console.ReadLine());
-```
+### 📊 SALIDA
 
-El acumulador:
+**Promedio**
 
-```csharp
-total = total + calificacion;
-```
+</td>
 
-permite sumar progresivamente todas las calificaciones introducidas.
+</tr>
+</table>
 
-El contador:
-
-```csharp
-contadorCalif = contadorCalif + 1;
-```
-
-registra la cantidad de calificaciones procesadas.
-
----
-
-# Cálculo del promedio
-
-## Programa 1
-
-Como siempre se introducen diez calificaciones:
+</div>
 
 ```csharp
 promedio = total / 10;
 ```
 
-El resultado se almacena como `int`, por lo que se realiza una división entera.
+```mermaid
+flowchart LR
 
-## Programa 2
+    A["90"] --> E["880"]
+    B["85"] --> E
+    C["95"] --> E
+    D["80 ..."] --> E
 
-La cantidad de calificaciones puede variar:
+    E --> F["÷ 10"]
+    F --> G["88"]
 
-```csharp
-promedio = (double)total / contadorCalif;
-```
+    classDef grade fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:2px;
+    classDef total fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
+    classDef result fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
 
-La conversión a `double` permite obtener un resultado decimal.
-
-Además, el resultado se muestra con dos posiciones decimales:
-
-```csharp
-Console.WriteLine(
-    "El promedio de la clase es {0:F2}",
-    promedio
-);
+    class A,B,C,D grade;
+    class E,F total;
+    class G result;
 ```
 
 ---
 
-# Manejo de casos especiales
+## 10. Flujo de la Aplicación
 
-El segundo programa incorpora una validación para comprobar si el usuario introdujo al menos una calificación:
+```mermaid
+flowchart TD
 
-```csharp
-if (contadorCalif != 0)
+    A["▶ INICIO"] --> B["Crear LibroCalificaciones"]
+    B --> C["MostrarMensaje()"]
+    C --> D["DeterminarPromedioClase()"]
+    D --> E["🔢 10 calificaciones"]
+    E --> F["➕ Total"]
+    F --> G["🧮 Promedio"]
+    G --> H["📊 Mostrar resultados"]
+    H --> I["■ FIN"]
+
+    classDef start fill:#111827,stroke:#38BDF8,color:#FFFFFF,stroke-width:3px;
+    classDef process fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:2px;
+    classDef calculation fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
+    classDef result fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
+
+    class A,I start;
+    class B,C,D,E process;
+    class F,G calculation;
+    class H result;
 ```
-
-Si no se introdujeron calificaciones, se muestra:
-
-```text
-No se introdujeron calificaciones.
-```
-
-Esta comprobación evita intentar calcular un promedio utilizando una cantidad de datos igual a cero.
 
 ---
 
-# Ejemplo de ejecución
+## 11. Capturas de Pantalla
 
-## Programa 1
+### Ejecución
+
+<div align="center">
+
+<img src="assets/actividad-ejecucion.png" alt="Ejecución de la aplicación" width="850">
+
+</div>
+
+### Ingreso de Calificaciones
+
+<div align="center">
+
+<img src="assets/actividad-calificaciones.png" alt="Ingreso de calificaciones" width="850">
+
+</div>
+
+### Resultado
+
+<div align="center">
+
+<img src="assets/actividad-resultado.png" alt="Resultado de la aplicación" width="850">
+
+</div>
+
+---
+
+## 12. Salida del Programa
 
 ```text
 Bienvenido al libro de calificaciones de
 CS101 Introducción a la programación en C#!
 
-Escriba calificación: 85
 Escriba calificación: 90
-Escriba calificación: 78
+Escriba calificación: 85
 Escriba calificación: 95
+Escriba calificación: 80
 Escriba calificación: 88
 Escriba calificación: 92
-Escriba calificación: 80
-Escriba calificación: 87
-Escriba calificación: 91
-Escriba calificación: 84
+Escriba calificación: 75
+Escriba calificación: 89
+Escriba calificación: 100
+Escriba calificación: 86
 
-El total de las 10 calificaciones es 870
-El promedio de la clase es 87
+El total de las 10 calificaciones es 880
+El promedio de la clase es 88
 ```
 
-## Programa 2
+---
+
+## 13. Conceptos Aplicados
+
+<div align="center">
+
+| 🧩  | Concepto    | 🧩 | Concepto        |
+| --- | ----------- | -- | --------------- |
+| 📦  | Clase       | 🧍 | Objeto          |
+| 🏗️ | Constructor | 🔐 | Encapsulamiento |
+| ⚙️  | Métodos     | 🔄 | `while`         |
+| 📥  | Entrada     | 📤 | Salida          |
+| ➕   | Acumulador  | 🔢 | Contador        |
+| 🧮  | Promedio    | 🔠 | Conversión      |
+
+</div>
+
+---
+
+## 14. Ejecución
+
+### Visual Studio
 
 ```text
-Bienvenido al libro de calificaciones para
-CS101 Introducción a la programación en C#!
-
-Escriba calificación o -1 para salir: 85
-Escriba calificación o -1 para salir: 90
-Escriba calificación o -1 para salir: 78
-Escriba calificación o -1 para salir: 95
-Escriba calificación o -1 para salir: -1
-
-El total de las 4 calificaciones introducidas es 348
-El promedio de la clase es 87.00
+Abrir solución
+      ↓
+Codigo#1 - Victor Montes.slnx
+      ↓
+Ejecutar ▶
+      ↓
+Ingresar 10 calificaciones
+      ↓
+Ver resultado
 ```
 
----
-
-# Requisitos
-
-Para ejecutar los programas se recomienda contar con:
-
-* **.NET SDK**
-* **C#**
-* Un editor o IDE compatible, como:
-
-  * Visual Studio
-  * Visual Studio Code
-  * JetBrains Rider
-
-Para comprobar que .NET está instalado:
-
-```bash
-dotnet --version
-```
-
----
-
-# Ejecución
-
-Clona el repositorio:
-
-```bash
-git clone <URL-DEL-REPOSITORIO>
-```
-
-Accede al directorio correspondiente:
-
-```bash
-cd <NOMBRE-DEL-REPOSITORIO>
-```
-
-Si los proyectos están configurados como aplicaciones .NET:
+### Terminal
 
 ```bash
 dotnet run
 ```
 
-También es posible abrir los proyectos directamente desde un IDE compatible con C#.
+---
+
+## 15. Autor y Contexto
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Victor%20Montes-UTP-0F172A?style=for-the-badge">
+
+<br><br>
+
+**Universidad Tecnológica de Panamá — UTP**
+
+**Facultad de Ingeniería de Sistemas Computacionales — FISC**
+
+**Ingeniería en Sistemas y Computación**
+
+<br>
+
+**15/09/2026**
+
+</div>
 
 ---
 
-# Aprendizajes obtenidos
+## 16. Referencias
 
-Esta actividad permite reforzar varios fundamentos esenciales del desarrollo en C#:
+<div align="center">
 
-```text
-                   PROGRAMACIÓN EN C#
-                          │
-          ┌───────────────┴───────────────┐
-          │                               │
-      POO / CLASES                 CONTROL DE FLUJO
-          │                               │
-    ┌─────┼─────┐                   ┌─────┴─────┐
-    │     │     │                   │           │
- Constructor  Propiedades        Contador    Centinela
-    │     │     │                   │           │
-    └─────┴─────┘                   └─────┬─────┘
-          │                               │
-          └──────────────┬────────────────┘
-                         │
-                  Procesamiento
-                   de datos
-                         │
-                         ▼
-                    PROMEDIOS
-```
+[![C#](https://img.shields.io/badge/C%23-Documentation-239120?style=for-the-badge\&logo=csharp\&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![.NET](https://img.shields.io/badge/.NET-Documentation-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/)
+[![Visual Studio](https://img.shields.io/badge/Visual%20Studio-Documentation-5C2D91?style=for-the-badge\&logo=visualstudio\&logoColor=white)](https://learn.microsoft.com/en-us/visualstudio/)
 
-Entre los principales aprendizajes se encuentran:
-
-* Creación y utilización de clases.
-* Instanciación de objetos.
-* Uso de constructores.
-* Encapsulamiento mediante propiedades.
-* Implementación de métodos.
-* Manejo de datos mediante consola.
-* Uso de ciclos `while`.
-* Diferencias entre contador y centinela.
-* Uso de acumuladores.
-* Conversión entre tipos de datos.
-* Manejo básico de condiciones.
-* Cálculo de promedios.
-
----
-
-# Conclusión
-
-Los dos programas resuelven un problema similar, pero demuestran que la forma de controlar la repetición puede cambiar considerablemente la flexibilidad de una solución.
-
-El **Programa 1**, basado en un contador, resulta apropiado cuando la cantidad de datos que se procesará es conocida de antemano.
-
-Por otro lado, el **Programa 2**, basado en un centinela, permite que el usuario determine cuándo finalizar la entrada de información, haciendo que la solución sea más flexible y adaptable.
-
-Además, ambos ejercicios permiten aplicar conceptos fundamentales de la **Programación Orientada a Objetos en C#**, estableciendo una base importante para el desarrollo de programas más complejos.
+</div>
 
 ---
 
 <div align="center">
 
-### Laboratorio de Programación Orientada a Objetos
-
-**C# · .NET · Clases · Métodos · Propiedades · Ciclos**
+### C# · .NET · POO · Consola
 
 <br>
 
-<img src="https://img.shields.io/badge/Made%20with-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="Made with C#">
+**Victor Montes**
+
+**Universidad Tecnológica de Panamá**
 
 </div>
