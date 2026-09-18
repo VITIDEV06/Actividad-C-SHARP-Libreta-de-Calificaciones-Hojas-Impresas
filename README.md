@@ -24,7 +24,7 @@
 
 <br>
 
-**Fecha:** 15/09/2026
+**Fecha:** 07 de septiembre de 2026
 
 </div>
 
